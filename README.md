@@ -92,16 +92,22 @@ The project includes:
 * Data visualization
 * Regression line visualization
 * Actual vs Predicted score comparison
-* R² Score
-* MSE
-* RMSE
-* MAE
+* R² Score value:0.9243909691068846
+* MSE value:17.123345246432496
+* RMSE value:4.138036399843831
+* MAE value:3.562216092419423
+
 * Prediction for a new student
 
 ## 🔮 New Student Prediction
 
 The trained model can predict the expected score of a new student based on their study hours.
+example:
+hours = [[9.25]]
 
+prediction = model.predict(hours)
+
+print("Predicted Score:", prediction[0])
 
 
 ## 📝 Conclusion
