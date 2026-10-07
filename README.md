@@ -102,15 +102,7 @@ The project includes:
 
 The trained model can predict the expected score of a new student based on their study hours.
 
-Example:
 
-```python
-hours = [[9.25]]
-
-prediction = model.predict(hours)
-
-print("Predicted Score:", prediction[0])
-```
 
 ## 📝 Conclusion
 
